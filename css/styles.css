@@ -1,0 +1,534 @@
+:root {
+  --main-color: rgba(33, 150, 243, 1);
+  --main-font: font-family: "Roboto", sans-serif;
+  --secondary-font: font-family: "Raleway";
+  --gray-color: rgba(117, 117, 117, 1);
+  --black-color: rgba(33, 33, 33, 1);
+  --white-color: rgba(255, 255, 255, 1);
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+  
+/*======== HEADER ========*/
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+ 
+
+
+body {
+  font-family: var(--main-font);
+  
+}
+
+header {
+  width: 1200px;
+  line-height: 1.15;
+  height: 80px;
+  border-bottom: 1px solid;
+  box-sizing: border-box;
+  display: block;
+}
+
+
+.container {
+  width: 1200px;
+}
+.header-flex {
+  display: flex;
+}
+
+.logo-first {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color:var(--main-color);
+  text-decoration: none;
+  cursor: pointer;
+  margin:24px 93px 0px 215px; 
+}
+
+.logo-first:hover{
+  color: var(--main-color);
+}
+
+.logo-second {
+  color: var(--black-color);
+  font-family: var(--secondary-font);
+  font-size: 26px;
+  line-height: 1.1;
+  text-decoration: none;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.navigation{
+  padding-left: 93px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  line-height: 1.15;
+}
+
+.list {
+  display: flex;
+  gap: 46px;
+  line-height: 1.15;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.agency-link {
+  position: relative;
+  float: left;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  color: var(--black-color);
+  text-decoration: none;
+}
+
+.agency-link:hover {
+  color: var(--main-color);
+}
+
+.portfolio-link {
+  position: relative;
+  margin-left: 46px;
+  margin-right: 46px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  color:var(--black-color);
+  text-decoration: none;
+}
+
+.portfolio-link:hover {
+  color: var(--main-color);
+}
+
+.contact-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  color: var(--black-color);
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  color: var(--main-color);
+}
+
+.email-header {
+  position: relative;
+  float: left;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  line-height: 1.1;
+  color: var(--gray-color);
+  text-decoration: none
+}
+
+.email-header:hover {
+  color: var(--main-color);
+}
+
+.phone-header {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+color: var(--gray-color);
+}
+
+.phone-header:hover{
+  color: var(--main-color);
+}
+
+
+/*======== END HEADER ========*/
+
+
+
+/*======== MAIN INDEX ========*/
+
+
+.background {
+    width: 1600px;
+    height: 600px;
+    background:rgba(47, 48, 58, 1);
+}    
+
+.main-description {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  width: 696px;
+  color: var(--white-color);
+  text-align: center;
+  text-transform: uppercase;
+  margin: auto;
+  padding-top: 200px;
+  padding-bottom: 40px;
+}
+
+h1 {
+  display: flex;
+  margin: 200px 452px 280px 452px ;
+}
+ 
+.first-button {
+  width: 200px;
+    height: 50px;
+    border: none;
+    background: var(--main-color);
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+    border-radius: 4px;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+}
+
+
+.flex-container-first {
+  display: flex;
+  list-style-type:none;
+  justify-content: center;
+  margin: 94px 215px 94px 215px 
+}
+
+
+.text-lorem-ipsum-01 {
+  width: 270px;
+  height: 75px;
+  margin: 10px 30px 94px 0px;
+  color: var(--gray-color);
+}
+
+.text-lorem-ipsum-02 {
+  width: 270px;
+  height: 75px;
+  margin: 10px 30px 94px 30px;
+  color: var(--gray-color);
+}
+
+.text-lorem-ipsum-03 {
+  width: 270px;
+  height: 75px;
+  margin: 10px 30px 94px 30px;
+  color: var(--gray-color);
+}
+
+.text-lorem-ipsum-04 {
+  width: 270px;
+  height: 75px;
+  margin: 10px 215px 94px 30px;
+  color: var(--gray-color);
+}
+
+.text-01 {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.text-02 {
+margin-left: 30px;
+font-weight: 700;
+font-size: 14px;
+}
+
+
+.text-03 {
+ margin-left: 30px;
+ font-weight: 700;
+ font-size: 14px;
+}
+
+.text-04 {
+ margin-left: 30px;
+ font-weight: 700;
+ font-size: 14px;
+}
+ 
+
+h4 {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.text-lorem-ipsum {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--gray-color);
+}
+
+
+
+.job-categories {
+font-weight: 700;
+font-size: 36px;
+display: flex;
+margin: 94px 624px 50px 624px ;
+}
+
+
+.picture {
+display: flex;
+list-style: none;
+}
+
+
+.picture-one {
+  display: flex;
+  justify-content: center;
+  background-size: auto;
+  margin: 50px 30px 94px 215px;
+}
+
+.picture-two {
+  background-size: auto;
+  margin: 50px 30px 94px 30px ;
+}
+ .picture-three {
+  background-size: auto ;
+  margin: 50px 215px 94px 30px ;
+ }
+
+ .workers {
+  width: 1600px;
+  height: 648px;
+  background-color: rgba(245, 244, 250, 1);
+ }
+
+ .team-text {
+ font-weight: 700;
+ font-size: 36px;
+ justify-content: center;
+ vertical-align: top;
+ text-align: center;
+ letter-spacing: 3%;
+ }
+ 
+
+.team{
+  width: 1600px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.john-doe-1 {
+margin: 50px 30px 94px 175px;
+text-decoration-style: none;
+box-sizing: border-box;
+}
+
+.john-doe-2 {
+  background-size: auto;
+  margin: 50px 30px 94px 30px;
+}
+
+.john-doe-3 {
+ margin: 50px 30px 94px 30px;
+}
+
+.john-doe-4 {
+  margin: 50px 215px 94px 30px;
+}
+
+.designer img {
+  object-fit: cover;
+}
+.ui{
+  object-fit: cover;
+}
+
+
+/*======== MAIN INDEX END ========*/
+
+
+
+
+
+/*======== MAIN PORTFOLIO ========*/
+
+.filter {
+  background-color: var(--white-color);
+  display: block;
+}
+
+.section {
+  margin: 94px 0px 34px 0px;
+  display: block;
+}
+
+.filter-boder {
+  display: flex;
+  gap: 8px;
+  width: 121px;
+  height: 38px;
+  padding-left: 510px;; 
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-left: 215px;
+}
+
+
+.filter-boder-button {
+  width: 128px;
+  height: 38px;
+  border-radius: 4px;
+  background: #F5F4FA;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--black-color);
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
+  border: 0px;
+  text-transform: none
+}
+
+.filter-boder-button:hover {
+  background-color: var(--main-color);
+  color:var(--white-color);
+}
+
+
+.flex-container {
+  margin: 94px 215px 94px 215px;
+}
+
+.card-set {
+display: flex;
+flex-wrap: wrap;
+list-style: none;
+gap: 30px;
+
+}
+
+.item{
+flex-basis: calc(100% / 2 * 30px)/3;
+border: 1px solid var(--white-color);
+}
+
+
+.text-picture {
+  margin: 20px 24px 20px 24px;
+  font-size: 18px;
+}
+
+.subsection {
+margin: 4px 24px 20px 24px;
+font-size: 16px;
+color: var(--gray-color);
+}
+
+/*======== MAIN PORTFOLIO END ========*/
+ 
+
+
+
+
+/*======== FOOTER ========*/
+
+.footer {
+  width: 1600px;
+  height: 252px;
+  background-color: rgba(47, 48, 58, 1);
+}
+
+.logo-footer-one {
+  margin: 154px 1240px 20px 215px;
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--main-color);
+  letter-spacing: 0.03em;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  text-decoration: none;
+  box-sizing: border-box;
+  tab-size: 4;
+  cursor: pointer;
+  display: block;
+}
+
+.logo-footer-two {
+  color: var(--white-color);
+  font-family: var(--secondary-font);
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin: 154px 1240px 20px 0px;
+}
+
+.address {
+  margin: 20px 1138px 9px 215px;
+  font-size: 14px;
+  color: var(--white-color);
+}
+
+.email-footer {
+  margin: 9px 1154px 9px 215px;
+  color: var(--gray-color);
+}
+
+.tel-footer {
+  margin: 9px 1154px 60px 215px;
+  color: var(--gray-color);
+}
+
+.email-footer:hover{
+  color: var(--main-color);
+}
+
+.tel-footer:hover {
+  color: var(--main-color);
+}
+
+.logo-footer:hover{
+  color: var(--main-color);
+}
+/*======== FOOTER END ========*/
