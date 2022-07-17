@@ -1,7 +1,7 @@
 :root {
   --main-color: rgba(33, 150, 243, 1);
-  --main-font: font-family: "Roboto", sans-serif;
-  --secondary-font: font-family: "Raleway";
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway";
   --gray-color: rgba(117, 117, 117, 1);
   --black-color: rgba(33, 33, 33, 1);
   --white-color: rgba(255, 255, 255, 1);
