@@ -369,13 +369,8 @@ text-decoration: none;
 .filter-boder {
   display: flex;
   gap: 8px;
-  width: 121px;
-  height: 38px;
-  padding-left: 510px;; 
-  display: flex;
   justify-content: center;
   list-style: none;
-  margin-left: 215px;
 }
 
 
@@ -405,16 +400,13 @@ text-decoration: none;
 }
 
 
-.flex-container {
-  margin: 94px 215px 94px 215px;
-}
+
 
 .card-set {
 display: flex;
 flex-wrap: wrap;
 list-style: none;
-gap: 30px;
-
+justify-content: space-between;
 }
 
 .item{
